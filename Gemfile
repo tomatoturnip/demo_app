@@ -3,10 +3,12 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
+
 group :development do
-  gem 'sqlite3', '1.3.3'
+  gem 'sqlite3', '1.3.9'
 end
 
+gem 'turbolinks', '2.3.0'
 
 # Gems used only for assets and not required
 # in production environments by default
